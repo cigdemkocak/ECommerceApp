@@ -1,8 +1,5 @@
 # Flower Store Project
 
-## Video 
-[Click here to view the site](https://www.youtube.com/watch?v=F58QiejgDqE)
-
 ## Packages and Modules
 - Browser Module
 - Reactive Form module
