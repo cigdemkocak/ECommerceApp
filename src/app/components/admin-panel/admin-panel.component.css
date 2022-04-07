@@ -1,0 +1,19 @@
+h1{
+    color:white;
+    font-size :24px;
+    margin-left: 85px;
+}
+img{
+    width: 150px;
+    height: 150px;
+   
+}
+#imagediv{
+    width: 150px;
+    height: 150px;
+}
+
+#addProductButton{
+    margin-right: 100px;
+}
+

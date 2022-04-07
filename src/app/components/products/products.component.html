@@ -1,0 +1,73 @@
+<div class="cart-top container-fluid bg-black">
+    <div class="container d-flex " >
+        <div class="container d-flex " >
+        <div class="items">
+            <a (click)="filter('')">
+                <h4> All Products</h4>
+            </a>
+        </div>
+        <div class="items">
+            <a (click)="filter('bouquet')">
+                <h4>Bouquet</h4>
+            </a>
+        </div>
+        <div class="items">
+            <a (click)="filter('vase')">
+                <h4>Vase</h4>
+            </a>
+        </div>
+        <div class="items">
+            <a (click)="filter('flowerpot')">
+                <h4>Flowerpot</h4>
+            </a>
+        </div>
+        </div>
+        <div class="container d-flex " >
+            <button (click)="toggle()" class="list btn btn-dark">CARD/LIST</button>
+           
+        </div>
+    </div>
+</div>
+
+<div class="container" *ngIf="hide" >
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey : 'title'">
+        <div class="card col-md-3" >
+            <img src="{{item.image}}"alt="" (click)="productView(item.id)">
+            <h5 style="font-size: 18px;" class="itemdata"><strong>{{item.title}}</strong></h5>
+            <p class="itemdata">{{item.description}}</p>
+            <p style="font-size: 20px;"><strong>Price: </strong>${{item.price}}</p>
+           <!--<p>{{item.category}}</p>--> 
+            
+            <button class="btn bg-black" (click)="addToCard(item)">ADD TO BAG</button>
+        </div>
+        </ng-container>
+    </div>
+</div>
+
+
+<div class="container" *ngIf="!hide" >
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Product Image</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of filterCategory | filter:searchKey : 'title'">
+                <td>{{item.id}}</td>
+                <td><div id="imagediv"><img src="{{item.image}}"><img></div></td>
+                <td>{{item.title}}</td>
+                <td>{{item.description}}</td>
+                <td>${{item.price}}</td>
+                <td>{{item.quantity}}</td>
+                <button (click)="addToCard(item)" class="bag">ADD TO BAG</button>
+            </tr>
+        </tbody>
+    </table>
+</div>

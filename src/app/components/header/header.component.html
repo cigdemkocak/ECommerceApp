@@ -1,0 +1,22 @@
+<header>
+    <div class="navbar navbar-dark bg-black shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            
+            <strong >FLOWER STORE</strong>
+            <div class="form-group">
+                <input type="text" style="padding: 12px;" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search">
+            </div>
+           
+        </div>
+        <div class="box" >
+              <button (click)="logout()" *ngIf="this.authService.isLoggedIn" type="button" class="btn btn-danger">Logout</button>
+           
+
+        <button routerLink="bag" class="btn btn-black">
+            <i style="font-size:30px;  color:white;" class="fa fa-shopping-basket"></i>
+            <div class="badge bg-danger">{{totalItemNumber}}</div>
+        </button>
+        </div>
+        
+    </div>
+</header>

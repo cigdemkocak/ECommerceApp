@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "bouquet",
+      "description": "A wonderful bouquet of Lilac that will make your day beautiful",
+      "image": "https://lizcicek.com/wp-content/uploads/2020/04/buket-cicek-8-min.jpg",
+      "price": 175,
+      "quantity": "5",
+      "title": "Lilac Bouquet"
+    },
+    {
+      "id": 3,
+      "category": "bouquet",
+      "description": "A wonderful bouquet of pink that will make your day beautiful",
+      "image": "https://cdn03.ciceksepeti.com/cicek/at4255-1/XL/at4255-1-8d7eb9af50dcbc0-c2c75085.jpg",
+      "price": 12,
+      "quantity": "1",
+      "title": "Pink Bouquet"
+    },
+    {
+      "id": 4,
+      "category": "bouquet",
+      "description": "A wonderful bouquet of white lilyum that will make your day beautiful",
+      "image": "https://cdn03.ciceksepeti.com/cicek/at4281-1/XL/beyaz-lilyum--papatya-ve-gul-cicek-buketi-at4281-1-bbc2d63ba4554c00986030b60646abf3.jpg",
+      "price": 20,
+      "quantity": "1",
+      "title": "White Lilyum Bouquet"
+    },
+    {
+      "id": 5,
+      "category": "bouquet",
+      "description": "A wonderful bouquet of rose that will make your day beautiful",
+      "image": "https://cdn03.ciceksepeti.com/cicek/at4258-1/XL/at4258-1-8d7eb9b50ac9678-2a4ae301.jpg",
+      "price": 20,
+      "quantity": "1",
+      "title": "Daisy Bouquet"
+    },
+    {
+      "id": 6,
+      "category": "bouquet",
+      "description": "A wonderful bouquet of white that will make your day beautiful",
+      "image": "https://www.yapaycicekdeposu.com/yapay-kaliteli-gul-buketi-beyaz-premium-demetler-yapay-cicek-deposu-13701-14-B.jpg",
+      "price": 17,
+      "quantity": "1",
+      "title": "White Bouquet"
+    },
+    {
+      "id": 7,
+      "category": "vase",
+      "description": "A wonderful daisy in a vase that will make your day beautiful",
+      "image": "https://cdn03.ciceksepeti.com/cicek/at4307-1/XL/kalipso-siyah-vazoda-pembe-bicme-papatya-at4307-1-34313190088446ea96c90f5fc30d8992.jpg",
+      "price": 30,
+      "quantity": "1",
+      "title": "Daisy in a Vase"
+    },
+    {
+      "id": 8,
+      "category": "vase",
+      "description": "A vase in colorful flower that will make your day beautiful",
+      "image": "https://cdn.cicekmarket.com/cicek-resim/l/cm101.jpg",
+      "price": 25,
+      "quantity": "1",
+      "title": "Vase in Colorful Flower"
+    },
+    {
+      "id": 9,
+      "category": "flowerpot",
+      "description": "A wonderful orchid in flowerpot that will make your day beautiful",
+      "image": "https://cdn03.ciceksepeti.com/cicek/kc66147-1/XL/dekoratif-saksida-cicek-diyari-kc66147-1-1.jpg",
+      "price": 25,
+      "quantity": "1",
+      "title": "Orchid in Flowerpot"
+    },
+    {
+      "id": 10,
+      "category": "vase",
+      "description": "A wonderful vase in peony that will make your day beautiful",
+      "image": "https://cdn.ikost.com/3020/urunler/vazoda-pembe-20-sakayik.jpg?v=5008",
+      "price": 18.75,
+      "quantity": "1",
+      "title": "vase in peony"
+    },
+    {
+      "id": 11,
+      "category": "vase",
+      "description": "A wonderful vase in orchid that will make your day beautiful",
+      "image": "https://productimages.hepsiburada.net/s/32/375/10354872451122.jpg",
+      "price": 21.15,
+      "quantity": "1",
+      "title": "Vase in Orchid"
+    },
+    {
+      "id": 12,
+      "category": "flowerpot",
+      "description": "A wonderful vase in yellow flower that will make your day beautiful",
+      "image": "https://osevio.feo.doracdn.com/resize/c28350b0134c45ba/553/608/Content/Upload/ProductImage/large_kapadokya_sari_kalanchoe_saksi_cicegi_26_07_2019_10_02_17.jpg",
+      "price": 18,
+      "quantity": "1",
+      "title": "Vase is Yellow Flower"
+    }
+  ],
+  "sale": [
+    {}
+  ],
+  "users": [
+    {
+      "name": "Çiğdem",
+      "surname": "Koçak",
+      "role": "User",
+      "email": "kocakcigdem@gmail.com",
+      "password": "123456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "id": 1
+    },
+    {
+      "name": "Nilay",
+      "surname": "Koçak",
+      "role": "Admin",
+      "email": "nilay@gmail.com",
+      "password": "123456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "id": 2
+    }
+  ]
+}

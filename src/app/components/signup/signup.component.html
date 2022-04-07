@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="col">
+      <div class="col-md-6">
+          <div class="card">
+              <div class="text-center">
+                  <h2>Sign Up</h2>
+              </div>
+              <div >
+                  <form>
+                      <form [formGroup]="signupForm" (ngSubmit)="registerUser()">
+                          <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Name</label>
+                              <input formControlName="name" type="text" class="form-control" id="float-input" >
+                              <span
+                              *ngIf="signupForm.get('name')!.hasError('required') && (signupForm.get('name')!.touched || signupForm.get('name')!.dirty)"
+                              class="error">
+                              Name is required!
+                              </span>
+                              
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Surname</label>
+                              <input formControlName="surname" type="text" class="form-control" id="float-input" >
+                              <span
+                              *ngIf="signupForm.get('surname')!.hasError('required') && (signupForm.get('surname')!.touched || signupForm.get('surname')!.dirty)"
+                              class="error">
+                              Surname is required!
+                              </span>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label" style="margin-right :10px; margin-top:5px;">Role</label>
+                              <select name="role" style="border: 1px solid black" formControlName="role">
+                                <option value="User">User</option>
+                                <option value="Admin">Admin</option> 
+                             </select>
+                             <span
+                             *ngIf="signupForm.get('role')!.hasError('required') && (signupForm.get('role')!.touched || signupForm.get('role')!.dirty)"
+                             class="error">
+                             Role is required!
+                           </span>
+                            </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input formControlName="email" type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                            <span
+                            *ngIf="signupForm.get('email')!.hasError('required') && (signupForm.get('email')!.touched || signupForm.get('email')!.dirty)"
+                            class="error">
+                            Email is required!
+                          </span>
+                            
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input formControlName="password" type="password" class="form-control" id="Password">
+                            <span
+                            *ngIf="signupForm.get('password')!.hasError('required') && (signupForm.get('password')!.touched || signupForm.get('password')!.dirty)"
+                            class="error">
+                            Password is required!
+                          </span>
+                          </div>
+
+                          <button type="submit"  class="btn btn-primary mb-2">Sign Up</button>
+                        </form>
+                        <a style="color:black; margin-top: 10px" routerLink="/login">Already registered? Click to Login! </a>
+                  </form>
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
