@@ -20,6 +20,7 @@ export class AuthService {
     token: '',
   };
 
+
   constructor(private router: Router, private userService: UserService) { }
 
   signUp(user: UserModel): Observable<any> {
@@ -30,12 +31,10 @@ export class AuthService {
     return this.userService.searchByFormControlKey<UserModel[]>(logInData).subscribe((user: UserModel[]) => {
       console.log(user);
       localStorage.setItem('access_token', user[0].token);
-      localStorage.setItem('role',user[0].role)
-      console.log(user[0].role)
+      localStorage.setItem('role',user[0].role); 
       const jsonFormattedData = JSON.stringify(user);
       localStorage.setItem('UserData', jsonFormattedData )
       this.currentUser = user[0];
-      this.router.navigate(['products'])
       if(user[0].role === 'User'){
         this.router.navigate(['products'])
       }else if(user[0].role === 'Admin'){
@@ -49,6 +48,13 @@ export class AuthService {
   getToken() {
     return localStorage.getItem('access_token');
   }
+  /*
+  getRole(){
+    return localStorage.getItem('role');
+
+  }
+  */
+
 
   get isLoggedIn(): boolean {
     let authToken = this.getToken();

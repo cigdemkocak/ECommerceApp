@@ -12,6 +12,18 @@ export class RoleGuard implements CanActivate {
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
       return false;
+      /*
+      if(this.authService.getRole() == 'Admin'){
+        this.router.navigate(['admin']);
+        return true;
+      }else{
+        alert("You don't have admin")
+        this.router.navigate(['login']);
+        return false;
+
+      }*/
+      
+
 
     /*
     let Role =localStorage.getItem('role')

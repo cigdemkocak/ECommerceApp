@@ -1,40 +1,13 @@
 {
   "products": [
     {
-      "id": 1,
-      "category": "bouquet",
-      "description": "A wonderful bouquet of Lilac that will make your day beautiful",
-      "image": "https://lizcicek.com/wp-content/uploads/2020/04/buket-cicek-8-min.jpg",
-      "price": 175,
-      "quantity": "5",
-      "title": "Lilac Bouquet"
-    },
-    {
-      "id": 3,
-      "category": "bouquet",
-      "description": "A wonderful bouquet of pink that will make your day beautiful",
-      "image": "https://cdn03.ciceksepeti.com/cicek/at4255-1/XL/at4255-1-8d7eb9af50dcbc0-c2c75085.jpg",
-      "price": 12,
-      "quantity": "1",
-      "title": "Pink Bouquet"
-    },
-    {
-      "id": 4,
-      "category": "bouquet",
-      "description": "A wonderful bouquet of white lilyum that will make your day beautiful",
-      "image": "https://cdn03.ciceksepeti.com/cicek/at4281-1/XL/beyaz-lilyum--papatya-ve-gul-cicek-buketi-at4281-1-bbc2d63ba4554c00986030b60646abf3.jpg",
-      "price": 20,
-      "quantity": "1",
-      "title": "White Lilyum Bouquet"
-    },
-    {
       "id": 5,
-      "category": "bouquet",
-      "description": "A wonderful bouquet of rose that will make your day beautiful",
+      "category": "Vase",
+      "description": "A wonderful of rose that will make your day beautiful",
       "image": "https://cdn03.ciceksepeti.com/cicek/at4258-1/XL/at4258-1-8d7eb9b50ac9678-2a4ae301.jpg",
-      "price": 20,
-      "quantity": "1",
-      "title": "Daisy Bouquet"
+      "price": 25,
+      "quantity": "6",
+      "title": "Red Bouquet"
     },
     {
       "id": 6,
@@ -98,21 +71,39 @@
       "price": 18,
       "quantity": "1",
       "title": "Vase is Yellow Flower"
+    },
+    {
+      "id": 13,
+      "category": "Vase",
+      "description": "çiçek",
+      "image": "https://www.funnyhowflowersdothat.co.uk/sites/flowers/files/styles/portrait_full/public/hyacinth_4-2.jpg?itok=ZzVJel54",
+      "price": 35,
+      "quantity": "5",
+      "title": "Flower"
+    },
+    {
+      "id": 14,
+      "category": "Vase",
+      "description": "flower",
+      "image": "https://www.funnyhowflowersdothat.co.uk/sites/flowers/files/styles/portrait_full/public/hyacinth_4-2.jpg?itok=ZzVJel54",
+      "price": 35,
+      "quantity": "5",
+      "title": "Flower"
+    },
+    {
+      "id": 15,
+      "category": "Vase",
+      "description": "flower",
+      "image": "https://www.funnyhowflowersdothat.co.uk/sites/flowers/files/styles/portrait_full/public/hyacinth_4-2.jpg?itok=ZzVJel54",
+      "price": 35,
+      "quantity": "5",
+      "title": "Daisy"
     }
   ],
   "sale": [
     {}
   ],
   "users": [
-    {
-      "name": "Çiğdem",
-      "surname": "Koçak",
-      "role": "User",
-      "email": "kocakcigdem@gmail.com",
-      "password": "123456",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
-      "id": 1
-    },
     {
       "name": "Nilay",
       "surname": "Koçak",
@@ -121,6 +112,33 @@
       "password": "123456",
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
       "id": 2
+    },
+    {
+      "name": "test",
+      "surname": "test",
+      "role": "User",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "surname": "test",
+      "role": "User",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "id": 4
+    },
+    {
+      "name": "Çiğdem",
+      "surname": "Çiğdem",
+      "role": "User",
+      "email": "kocakcigdem@gmail.com",
+      "password": "123456",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "id": 5
     }
   ]
 }

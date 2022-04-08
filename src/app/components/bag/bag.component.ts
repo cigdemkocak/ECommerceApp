@@ -9,7 +9,10 @@ import { CardapiService } from 'src/app/services/cardapi.service';
 export class BagComponent implements OnInit {
   products: any = [];
   allProducts: any =0;
-  constructor(private cardApi: CardapiService) { }
+  
+  constructor(private cardApi: CardapiService) {
+    
+   }
 
   ngOnInit(): void {
     this.cardApi.getProductData().subscribe(res => {
@@ -25,6 +28,9 @@ export class BagComponent implements OnInit {
   removeAllProduct(){
     this.cardApi.removeAllCard();
   }
-
+  sale(){
+    this.cardApi.removeAllCard();
+    alert("Sale is successful")
+  }
 
 }
