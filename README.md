@@ -2,7 +2,8 @@
 
 ## Video
 
-[title](https://www.youtube.com/watch?v=9_I0GvhgaGY)
+[Project Video](https://www.youtube.com/watch?v=9_I0GvhgaGY)
+
 
 ## Packages and Modules
 - Browser Module
@@ -10,6 +11,13 @@
 - HttpClient Module
 - Forms Module
 - AppRouting Module
+- AuthGuard
+
+## Requirements
+- Vs Code
+- Angular 13
+- Bootstrap 5
+- npm 
 
 ## Getting Started
 
